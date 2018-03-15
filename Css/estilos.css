@@ -1,0 +1,50 @@
+/*Cabecera*/
+.cabecera{
+    background: #5b7989;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10px 10px 0px 0px;
+}
+h1{
+    text-shadow: 2px 2px #02010a;
+}
+
+/*Declaración de flexbox para nav*/
+div, nav[class*="nav"]{
+    flex-basis: 50%;
+}
+/*Barra de navegación*/
+ul{
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    margin: 0px 10px;;
+    float: right;
+    margin-top: 35px;
+   
+}
+a{
+    text-decoration: none;
+}
+
+body{
+/*    background-color: black;*/
+}
+/*Pie de pagina*/
+footer{
+    clear: both;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 0px 0px 10px 10px;
+    background: #c6d5c5;
+    text-align: center;
+}
+/*Flexbox para pie de pagina*/
+div[class*="pie_pagina"]{
+    min-height: 70px;
+    flex-basis: 25%;
+}
