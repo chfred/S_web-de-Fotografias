@@ -1,4 +1,16 @@
 /*Cabecera*/
+div[class*="nav"]{
+    flex-basis: 50%;
+    
+}
+
+.navt{
+    
+}
+.nave{
+    
+}
+
 .cabecera{
     background: #5b7989;
     display: flex;
@@ -11,6 +23,7 @@ h1{
 
 /*Declaración de flexbox para nav*/
 div, nav[class*="nav"]{
+/*    max-height: 60px;*/
     flex-basis: 50%;
 }
 /*Barra de navegación*/
@@ -26,17 +39,53 @@ li{
 }
 a{
     text-decoration: none;
+    color: black;
+}
+/*---------------------------------------------------------------------*/
+/*Contenido*/
+.foto_principal{
+    margin-top: 20px;
+/*    border: 2px solid black;*/
+    background: #82c3a6;
+    text-align: center;
+
 }
 
-body{
-/*    background-color: black;*/
+img{
+    width:  75%;
 }
-/*Pie de pagina*/
+
+/*---------------------------------------------*/
+div[class*="foto"]{
+    min-height: 150px;
+    flex-basis: 50%;
+}
+
+.foto1 img{
+    text-align: center;
+    width: 90%;
+}
+.foto2 img{
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;    
+}
+
+.foto_secundario{
+    border: 2px solid black;
+    text-align: center;
+    background: #d5c75f;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+/*------------------------------*/
+/*pie de pagina*/
 footer{
     clear: both;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+/*    position: fixed;*/
+    bottom: 0px;
     display: flex;
     flex-flow: row wrap;
     border-radius: 0px 0px 10px 10px;
@@ -47,4 +96,23 @@ footer{
 div[class*="pie_pagina"]{
     min-height: 70px;
     flex-basis: 25%;
+}
+
+@media all and (max-width: 500px){
+    .cabecera{
+        width: 100%;
+        order: 1;
+    }
+    
+    .foto_secundario{
+        width: 100%;
+    }
+    .foto1{
+        width: 100%;
+        order: 1;
+    }
+    .foto2{
+        width: 100%;
+        order: 2;
+    }
 }
