@@ -1,4 +1,16 @@
 /*------------------------------Cabecera-----------------------*/
+body li a{
+    color: white;
+}
+body footer{
+    color: black;
+}
+body{
+    font-family: 'Dancing Script', Arial;
+    color: white;
+    background: black;
+}
+
 .cabecera{
     background: #5b7989;
     border-radius: 10px 10px 0px 0px;
@@ -47,22 +59,31 @@ img{
 
 .foto1{
     width: 33%;
+    filter: blur(10px);
 }
 
 .foto2{
     width: 33%;
+    filter: grayscale(100%);
 }
 .foto3{
     width: 33%;
+    -webkit-filter: sepia(100%);
 }
 .foto4{
     width: 33%;
+    filter: grayscale(100%);
 }
 .foto5{
     width: 33%;
 }
 .foto6{
     width: 33%;
+    filter: grayscale(100%);
+}
+#face{
+    width: 30px;
+    text-align: center;
 }
 
 /*-------------------------------------------------------------------*/
@@ -91,7 +112,6 @@ img{
     margin-top: 20px;
     width: 25%;
 }
-
 
 /*----------------------Dispositivo movil----------------------------------------------*/
 

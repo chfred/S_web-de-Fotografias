@@ -6,7 +6,9 @@ body footer{
     color: black;
 }
 body{
+    font-family: 'Dancing Script', Arial;
     color: white;
+    background: black;
 }
 .cabecera{
     background: #5b7989;
@@ -194,4 +196,20 @@ ul li{
     .pie_pagina4{
         width: 24%;
     }
+}
+
+
+header {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 150%;
+  }
+
+  to {
+    margin-top: -5%;
+  }
 }
