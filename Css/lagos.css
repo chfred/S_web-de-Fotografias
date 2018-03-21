@@ -5,8 +5,10 @@ body li a{
 body footer{
     color: black;
 }
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 body{
-    font-family: 'Dancing Script', Arial;
+    font-family: 'Dancing Script', cursive;
     color: white;
     background: black;
 }
