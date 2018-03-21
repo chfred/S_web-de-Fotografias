@@ -1,13 +1,4 @@
 /*------------------------------Cabecera-----------------------*/
-body li a{
-    color: white;
-}
-body footer{
-    color: black;
-}
-body{
-    color: white;
-}
 .cabecera{
     background: #5b7989;
     border-radius: 10px 10px 0px 0px;
@@ -40,58 +31,41 @@ ul li{
     margin-right: 20px;
 }
 /*---------------------------------------------------------------------*/
-                        /*Contenido*/
-.foto_principal{
-/*    border: 2px solid black;*/
-    background: #82c3a6;
-    text-align: center;
-    width: 100%;
-}
-
-#principal{
-    margin-top: 20px;
-    width: 75%;
-    margin-bottom: 20px;
-}
-/*---------------------------------------------*/
-#paisa, #retrato{
-    border: 1px solid black;
-    width: 80%;
-}
-
-.foto_secundario{
-/*    border: 2px solid black;*/
-    text-align: center;
+.contenedor{
     background: #d5c75f;
-    
     display: flex;
     flex-flow: row wrap;
+    width: 100%;
+} 
+
+img{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    width:  90%;
 }
 
 .foto1{
-    margin-top: 45px;
-    width: 50%;
+    width: 33%;
 }
-
 
 .foto2{
-    margin-top: 25px;
-    width: 50%;
+    width: 33%;
+}
+.foto3{
+    width: 33%;
+}
+.foto4{
+    width: 33%;
+}
+.foto5{
+    width: 33%;
+}
+.foto6{
+    width: 33%;
 }
 
-.foto1:hover{
-/*    border: 2px solid black;*/
-    transform: rotate(10deg);
-    text-shadow: 2px #82c3a6;
-}
-
-.foto2:hover{
-    transform: translate3d(20px, -5px, 5px);
-/*    border: 2px solid black;*/
-    text-shadow: 2px #82c3a6;
-}
-
-/**/
+/*-------------------------------------------------------------------*/
 .piePagina{
 /*    border: 2px solid black;*/
     background: #c6d5c5;
@@ -134,9 +108,7 @@ ul li{
         order: 2;
         text-align: center;
     }
-    #principal{
-        width: 85%;
-    }
+/*Contenido*/
     .foto1{
         width: 100%;
         order: 1;
@@ -145,6 +117,24 @@ ul li{
         width: 100%;
         order: 2;
     }
+    .foto3{
+        width: 100%;
+        order: 3;
+    }
+    .foto4{
+        width: 100%;
+        order: 4;
+    }
+    .foto5{
+        width: 100%;
+        order: 5;
+    }
+    .foto6{
+        width: 100%;
+        order: 6;
+    }
+    
+/*----------footer--------------*/
     .pie_pagina1{
         width: 100%;
         order: 1;
